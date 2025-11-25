@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.header{
+    background:rgb(0, 51, 102) ;
+    display: flex;
+    color: white;
+    padding: 10px 30px;
+}
+.left-header{
+    /* float: left; */
+}
+.sign-in h5{
+    position: absolute;
+    right: 0;           /* Stick to the left */
+    top: 0;            /* From top of page */
+    padding: 20px;
+}
+.left-header h2{
+    font-family:edu;
+}
