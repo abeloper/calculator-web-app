@@ -2,22 +2,104 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 .header{
     background:rgb(0, 51, 102) ;
     display: flex;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 10%;
+    gap: 56%;
 }
-.left-header{
-    /* float: left; */
+
+.the-battle{
+    
+    background-color: #D1DDE9;
 }
-.sign-in h5{
+.main-sec{
+    height: 450px;
+    display: flex;
+    width: 49%;
+}
+.sign-in a{
+    color: rgba(255, 255, 255, 0.738);
+    font-weight: bold;
+    font-size: 20px;
+}
+.sign-in a:hover{
+text-decoration: underline;
+}
+.search-bar h3{
+margin: 25px 0px 0px;
+}
+.search-bar{
     position: absolute;
-    right: 0;           /* Stick to the left */
-    top: 0;            /* From top of page */
-    padding: 20px;
+    right: 0;
+    font-size: 25px;
+    color:#044284;
+     padding-right: 20px;
 }
-.left-header h2{
-    font-family:edu;
+.search-bar button,input{
+    font-size: 20px;
+    border: 1px solid #154580;
+}
+.search-bar input{
+    border-radius: 2px;
+    font-size: 20px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.search{
+    width:250px;
+    padding: 2px 10px;
+    border: 1px solid #154580;
+    box-shadow: 1px 1px 2px #666;
+    outline: none;
+    
+}
+.search:focus{
+    border-color: rgba(234, 200, 8, 0.789);
+    box-shadow: 0 0 5px rgb(189, 161, 5);
+}
+.search-btn{
+    border: 1px solid #044284;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #666;
+    font-size: 16px;
+    background-color: #003366;
+    color: white;
+    margin-left: 10px;
+    padding: 3px;
+}
+.left-header a{
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+.calculator{
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+}
+.calculator-table{
+    /* background-color: white;
+    padding: 10px;
+    height: 378px; */
+}
+.show-input{
+
+}
+.show-result{
+    font-size: 20px;
+    padding: 15px;
+    margin: 2px;
+    cursor: text;
+    text-align: right;
+    background-color: #336699;
+    border: 1px solid #336699;
+    border-radius: 0px;
+    color: #fff;
 }
