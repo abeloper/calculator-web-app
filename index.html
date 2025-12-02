@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+QLD+Hand:wght@400..700&family=Zen+Dots&display=swap">
+    <link rel="icon" type="image/png" sizes="32x32" href="//d26tpo4cm8sb6k.cloudfront.net/icon-32x32.png">
 </head>
 <body>
     <!-- header -->
-     <section class="header">
-        <div class="left-header">
+     <section class="headersec">
+        <div class="header">
+            <div class="left-header">
             <a href=""><h1>Calculator <span class="net" style="color: rgb(204, 255, 153);">.net</span></h1></a>
         </div>
         <div class="sign-in">
             <a href="">Sign in</a>
+        </div>
         </div>
      </section>
 
@@ -25,21 +28,26 @@
     <table class="calculator-table" width="57%">
         <tr>
             <td>
-            <div class="show-input"></div>
-            <div class="show-result"></div>
+            <div class="show-input">&nbsp;</div>
+            <div class="show-result">&nbsp;</div>
             </td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+           <td>
+            <div id="homebtn" style="padding-top:3px width 100%" >
+                <div>
+                    <button onclick="r('sin')" class="scifunc">sin</button>
+                    <button onclick="r('cos')" class="scifunc">cos</button>
+                    <button onclick="r('tan')">tan</button>
+                    <div class="deg-or-rad">
+                        <input type="radio" name="unit-of-angle">
+                        <label for="">Deg</label>
+                        <input type="radio" name="unit-of-angle">
+                        <label for="">Rad</label>
+                    </div>
+                </div>
+            </div>
+           </td>
         </tr>
     </table>
 
